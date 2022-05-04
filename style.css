@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font: 700 40px/1.2 Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header {
+    width: 100vw !important;
+    height: 100vh;
+    /* background-color: #222; */
+    background: repeat url(img/pattern.png), top / cover no-repeat url(img/cover.jpg);
+    color: white;
+}
+
+header h1, header div{
+    text-align: center;
+}
+
+header section {
+    padding-top: 40vh;
+    height: 100%;
+    background-color: rgba(44, 62, 80, 0.2);
+}
+
+header h1 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+article {
+    height: 100vh;
+}
